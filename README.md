@@ -128,23 +128,6 @@ The visualizations are generated using bubble plots, which are useful for compar
 The project generates an HTML report containing tables, static plots and animated plots.  
 The output allows users to visually compare NBA players and teams across different performance metrics.
 
-## Suggested repository structure
-
-```text
-.
-├── ProgettoRmarkdownGiacomoMariuzza.Rmd
-├── players.csv
-├── games_details.csv
-├── games.csv
-├── teams.csv
-├── ranking.csv
-└── README.md
-```
-
-## Notes
-
-The CSV files are not embedded in the R Markdown file. To reproduce the analysis correctly, place them in the same folder as the project file or update the file paths inside the script.
-
 
 ---
 
@@ -273,19 +256,3 @@ Le visualizzazioni vengono generate tramite bubble plot, utili per confrontare p
 Il progetto produce un report HTML contenente tabelle, grafici statici e grafici animati.  
 L'output permette di osservare e confrontare il rendimento di giocatori e squadre NBA in modo visivo e interattivo.
 
-## Struttura consigliata della repository
-
-```text
-.
-├── ProgettoRmarkdownGiacomoMariuzza.Rmd
-├── players.csv
-├── games_details.csv
-├── games.csv
-├── teams.csv
-├── ranking.csv
-└── README.md
-```
-
-## Note
-
-I file CSV non sono inclusi automaticamente nel file R Markdown. Per riprodurre correttamente l'analisi è necessario inserirli nella stessa cartella del progetto oppure modificare i percorsi di lettura all'interno dello script.
